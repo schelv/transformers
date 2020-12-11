@@ -19,9 +19,9 @@ Rust library `tokenizers <https://github.com/huggingface/tokenizers>`__. The "Fa
 
 1. a significant speed-up in particular when doing batched tokenization and
 2. additional methods to map between the original string (character and words) and the token space (e.g. getting the
-   index of the token comprising a given character or the span of characters corresponding to a given token). Currently
-   no "Fast" implementation is available for the SentencePiece-based tokenizers (for T5, ALBERT, CamemBERT, XLMRoBERTa
-   and XLNet models).
+   index of the token comprising a given character or the span of characters corresponding to a given token). 
+   
+Currently no "Fast" implementation is available for the SentencePiece-based tokenizers (for T5, ALBERT, CamemBERT, XLMRoBERTa and XLNet models).
 
 The base classes :class:`~transformers.PreTrainedTokenizer` and :class:`~transformers.PreTrainedTokenizerFast`
 implement the common methods for encoding string inputs in model inputs (see below) and instantiating/saving python and
